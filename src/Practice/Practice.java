@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Practice {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your decimal number ");
+        System.out.println("abcdefghigk jkl");
+        System.out.println("735483");
 
         int num = sc.nextInt();
         String b = " ";
