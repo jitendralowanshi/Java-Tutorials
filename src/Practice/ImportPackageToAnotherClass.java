@@ -1,8 +1,8 @@
 package Practice;
 
 // import packageName dot ClassName ;  import package to another package .
-import JavaPractice.JP_28_RunTime_polymorphism;
-import JavaPractice.JP_24_Inheritence;
+import JavaLearnToBegenner.JP_28_RunTime_polymorphism;
+import JavaLearnToBegenner.JP_24_Inheritence;
 
 public class ImportPackageToAnotherClass {
     public static void main(String[] args) {
