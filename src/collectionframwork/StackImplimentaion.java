@@ -29,5 +29,8 @@ public class StackImplimentaion {
         System.out.println(list);
 
 
+//        list.peek();
+
+
     }
 }
