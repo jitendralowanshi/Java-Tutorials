@@ -23,7 +23,7 @@ public class StackClass {
             Node newNode = new Node(data);
             if (isEmpty()) {
                 head = newNode;
-                return;
+//                return;
             }
             else {
                 newNode.next = head;
