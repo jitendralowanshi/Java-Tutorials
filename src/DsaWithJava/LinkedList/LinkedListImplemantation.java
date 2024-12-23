@@ -1,6 +1,6 @@
 package DsaWithJava.LinkedList;
 
-public class LL {
+public class LinkedListImplemantation {
     Node head;
 
     class Node {
@@ -59,7 +59,7 @@ public class LL {
 
 
     public static void main(String[] args) {
-        LL list = new LL();
+        LinkedListImplemantation list = new LinkedListImplemantation();
         list.add(50);
         list.add(60);
         list.add(70);

@@ -1,24 +1,24 @@
 package DsaWithJava.Array;
 
 public class sumOfTwoArraysNumbers {
-    static void sumOfTwoNumbers(int[] arr) {
+    static int[] sumOfTwoNumbers(int[] arr) {
         for (int sum: arr) {
             System.out.print(sum + " ");
         }
         System.out.println();
 
-        int s = 120;
+        int target = 120;
         for (int i=0; i<arr.length; i++) {
-            for (int j=arr.length-1; j>0; j--) {
-                int sum1 = arr[i] + arr[j];
-                if (sum1 == s ) {
-                    if (i == j) {
-                        return;
-                    }
-                    System.out.println("index is " + i+ "," + j );
+            for (int j=i+1; j<arr.length; j++) {
+                if (arr[i]+arr[j] == target ) {
+
+//                    System.out.println("index is " + i+ "," + j );
+                    return new int[]{i,j}; //this use in leetcoede problems
+//                  return new array with initialize
                 }
             }
         }
+        return new int[]{};
     }
     public static void main(String[] args) {
 

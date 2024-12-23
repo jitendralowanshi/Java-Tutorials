@@ -21,6 +21,7 @@ public class LinkedListInJava {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Your data ");
         int data = sc.nextInt();
+
         Node newNode = new Node(data);
         if (head == null){
             head =newNode;
